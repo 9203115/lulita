@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
     
   <title>Агенство недвижимости ИГЛУ</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/style.css">
-  
+<!-- <link media="print" rel="stylesheet" href="css/print.css"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   </head>
 <body>
-    <div class="container">
-    <header>
-                 <nav>
-      <a href="index.html">
-       <img 
-        src="img/iglu.png"
-        alt="Агенство недвижимости ИГЛУ"
-        class="logo-img"></a>
-          <div class="nazvanie">Агенство недвижимости ИГЛУ</div>  
-          <div class="nazvanie">+7 (985) 774-94-19 </div>
-      </nav>
+  <div class="container">  
+       <div id="headerMain">
+      <header> 
             <nav>
+        <div class="nazvanie">
+        <ul>
+        <li><img src="img/tel.png" alt="телефон">7 (985) 774-94-19</li>
+        <li>Агенство недвижимости ИГЛУ</li>
+        </ul>
+        </div>
+            </nav>
+         
+                 
+                                             <nav>
                <ul>
+          <li><a href="index.html">
+                  <img 
+                   src="img/iglu.png"
+                   alt="Агенство недвижимости ИГЛУ"
+                   class="logo-img"></a></li>
           <li><a href="/index.html">Главная</a></li>
           <li><a href="/about.html">О компании</a></li>
           <li><a href="/catalog.html">Каталог</a></li>
@@ -29,17 +37,564 @@
           <li><a href="/service.html">Услуги</a></li>
         </ul>
       </nav>
-    </header>
-  </div> 
+      </header>
 
-          
-    <h4>Каталог недвижимости</h4>
-    <div class="pic_link">
-          <div class="block"><a href="/img/u2.pdf"><img class="cr3 sliderImage" src="/img/vtorichka.jpg" alt="квартиры на вторичном рынке"><br><span>Квартиры на вторичном рынке</span></a></div>
-        <div class="block"><a href="/img/u1.pdf"><img class="cr3 sliderImage" src="/img/vnovom.jpg" alt="квартиры в новостройках"><br><span>Квартиры в новостройках</span></a></div>
-        <div class="block"><a href="/img/u12.pdf"><img class="cr3 sliderImage" src="/img/zagorod.jpg" alt="дома, котеджи"><br><span>Дома, котеджи</span></a></div>
-      </div>
-  
+ 
+  </div>
+  <div class="container2"> 
+  <h1>Каталог</h1>
+  <div class="wrap">
+	<div class="V quart">
+	<form name="test" method="post" action="input1.php">
+				
+		<p><b>Площадь квартиры</b><br>
+		 <input type="text" size="10">кв.м
+		
+		</p></form>
+		</div>
+	<form>
+		<div class="number">
+		<p><b>Количество комнат</b></p>
+		<p><input type="checkbox" name="radio" value="a1" checked>Студия<Br>
+		<input type="checkbox" name="radio" value="a2">Однокомнатная<Br>
+		<input type="checkbox" name="radio" value="a3">Двухкомнатная<Br> 
+		<input type="checkbox" name="radio" value="a4">Трехкомнатная<Br> 
+		<input type="checkbox" name="radio" value="a5">Четырехкомнатная<br>
+	
+		<p><input type="submit" value="Выбрать"></p>
+		</div>
+	</form>
+			<div class="region">
+			<p><b>Выбрать район</b></p>	  	
+		<select name="region">
+	
+			<option value="1">Север</option>   
+			<option value="2">Восток</option>   
+			<option value="3">Запад</option>   
+			<option value="4">Юг</option>   
+				   
+		</select>
+	</div>
+	 
+	  <div class="for_select">
+				  <p><b>Выбрать цену</b></p>
+				
+			<select class="sel big">
+		<option value="  ">мин.</option>
+				<option value="200000" >200 тыс</option>
+				<option value="300000" >300 тыс</option>
+				<option value="500000" >500 тыс</option>
+				<option value="700000" >700 тыс</option>
+				<option value="800000" >800 тыс</option>
+		</select>
+<span> до </span>
+<select class="sel big">
+	<option value="  ">макс.</option>
+			<option value="200000" >200 тыс</option>
+			<option value="300000" >300 тыс</option>
+			<option value="500000" >500 тыс</option>
+			<option value="700000" >700 тыс</option>
+			<option value="800000" >800 тыс</option>
+	</select>	
+</div>
+  </div>
+	
+<div class="thead">
+	<div class="coll">
+		<div class="col03">Цена</div>
+		<div class="col04">Адрес</div>
+		<div class="col05">Расположение</div>
+		<div class="col05">Количество комнат</div>
+		<div class="col07">Площадь</div>
+		<div class="col09">Тип дома</div>
+		<div class="col09">Этаж</div>
+		<div class="col02">Фото</div>
+				</div>
+		</div>
+	  
+						<div class="product">
+				<div class="product-1">     
+					<div class="col01">
+	<span class="product-desc">Продается просторная 2-комнатная квартира в современном 17 этажном доме. панорамный вид, отличное состояние. пешая доступность до метро. один взрослый...											
+	</span>
+   </div></div>
+                  <div class="product-2">
+       <div class="col03">
+	 	<div class="offer">
+	<span class="product-price">668900</span>
+	<span class="product-price-currency">RUB</span></div>
+   </div>
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Победы</a></span></div>
+	<div class="col05">
+		<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	
+	<span class="product-rooms">однокомнатная</span></div>
+	<div class="col07">
+	
+			<span class="product-square">45 кв.м.</span></div>
+	
+	<div class="col08">
+	<span class="product-type-house">монолитный</span></div>
+	<div class="col09">
+		
+	<span class="product-level">4 этаж</span></div>
+	<div class="col02"><img src="/img/q1.jpg" class="product-img" alt="1-я квартира"></div>
+   </div>
+</div>
+	 <div class="product">
+		<div class="product-1">     
+			<div class="col01">
+   	<span class="product-desc">Квартира в 5 мин. пешком от метро Тверская! двухкомнатная квартира, комнаты смежные. высокий первый этаж.											
+	</span></div>
+   </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">578222</span>
+	<span class="product-price-currency">RUB</span></div>
+	</div>
+		<div class="col04">
+	<span class="product-address"><a href="#">ул.Тверская</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">2-х комнатная</span></div>
+		<div class="col07">
+		<span class="product-square">56 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">4 этаж</span></div>
+	 	 <div class="col02"><img src="/img/q2.jpg" class="product-img" alt="2-я квартира"></div>
+	</div></div>
+	 <div class="product">
+		<div class="product-1">     
+			<div class="col01">
+	
+   
+	<span class="product-desc">Вашему вниманию представляется замечательная 4-х комнатная квартира с хорошим евро ремонтом, площадью 44,5 кв.м. - идеальное сочетание загородного дом...											
+	</span></div>
+        
+	  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">699059</span>
+	<span class="product-price-currency">RUB</span></div>
+	</div>
+	
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Тверская</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">4-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">105 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">4 этаж</span></div>
+	<div class="col02"><img src="/img/q3.jpg" class="product-img" alt="4-я квартира">
+	</div>
+	 </div>
+   </div>
+   <div class="product">
+	<div class="product-1">     
+		<div class="col01">
+   <span class="product-desc">Квартира в 5 мин. пешком от метро Киевская! двухкомнатная квартира, комнаты смежные. высокий первый этаж.											
+</span></div>
+</div>
+	  <div class="product-2">
+   <div class="col03">
+<div class="offer">
+<span class="product-price">578222</span>
+<span class="product-price-currency">RUB</span></div>
+</div>
+	<div class="col04">
+<span class="product-address"><a href="#">ул.Тверская</a></span></div>
+	<div class="col05">
+<span class="product-map"><a href="#">Показать на карте</a></span></div>
+<div class="col06">
+<span class="product-rooms">2-х комнатная</span></div>
+	<div class="col07">
+	<span class="product-square">45 кв.м.</span></div>
+<div class="col08">
+<span class="product-type-house">Кирпичный</span></div>
+	<div class="col09">
+<span class="product-level">4 этаж</span></div>
+	  <div class="col02"><img src="/img/q2.jpg" class="product-img" alt="2-я комнатная"></div>
+</div></div>
+
+ <div class="product">
+	<div class="product-1">     
+		<div class="col01">
+
+<span class="product-desc">Один взрослый собственник. документы более пяти лет в собственности. дом удачно расположен между четырех станций метро. в шаговой доступности патриаршие пруды				
+</span></div></div>
+	
+	  <div class="product-2">
+   <div class="col03">
+<div class="offer">
+<span class="product-price">699059</span>
+<span class="product-price-currency">RUB</span></div>
+</div>
+<div class="col04">
+<span class="product-address"><a href="#">Проспект Верднадского</a></span></div>
+	<div class="col05">
+<span class="product-map"><a href="#">Показать на карте</a></span></div>
+<div class="col06">
+<span class="product-rooms">студия</span></div>
+<div class="col07">
+		<span class="product-square">51 кв.м.</span></div>
+<div class="col08">
+<span class="product-type-house">Кирпичный</span></div>
+	<div class="col09">
+<span class="product-level">4 этаж</span></div>
+<div class="col02"><img src="/img/q4.jpg" class="product-img" alt="студия">
+</div>
+ </div></div>
+	 
+	 <div class="product">
+		<div class="product-1">     
+			<div class="col01">
+	  	<span class="product-desc">Продается светлая, просторная 3-к.кв-ра в доме п-46м после ремонта. большой холл, раздельный сан/узел, комнаты изолированные. дом расположен в тихом, ...
+	</span></div></div>
+      	          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">786555</span>
+	<span class="product-price-currency">RUB</span></div>
+	  </div>
+		<div class="col04">
+	<span class="product-address"><a href="#">ул.Удальцова</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">3-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">75 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">монолитно-кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">4 этаж</span></div>
+	<div class="col02"><img src="/img/q5.jpg" class="product-img" alt="3-х комнатная"></div>
+</div></div>
+<div class="product">
+   <div class="product-1">     
+	   <div class="col01">        	
+	<span class="product-desc">Переуступка. цена за 1 кв. м ниже, чем у застройщика.  продается студия 23,7 кв м. с ремонтом,  с волшебным панорамным видом на 25/25 этаже жк "восточ...											
+	</span></div>
+   </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">387990</span>
+	<span class="product-price-currency">RUB</span></div>
+	</div>
+	
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Смоленская</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">студия</span></div>
+	<div class="col07">
+			<span class="product-square">23,7 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">монолитный</span></div>
+		<div class="col09">
+	<span class="product-level">25 этаж</span></div>
+
+	<div class="col02"><img src="/img/q6.jpg" class="product-img" alt="студия"></div>
+</div></div>
+<div class="product">
+   <div class="product-1">     
+	   <div class="col01">
+	
+   
+	<span class="product-desc">Продаем однокомнатную квартиру в экологическом чистом районе москвы. развитая инфраструктура, школа, несколько детских садов, магазины.											
+	</span></div>
+   	   
+	  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">549090</span>
+	<span class="product-price-currency">RUB</span></div>
+	</div>
+		<div class="col04">
+	<span class="product-address"><a href="#">ул.Покрышкина</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">однокомнатная</span></div>
+	<div class="col07">
+			<span class="product-square">45 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">8 этаж</span></div>
+	<div class="col02"><img src="/img/q17.jpg" class="product-img" alt="1-ая квартира"></div>
+</Div></div>
+<div class="product">
+   <div class="product-1">     
+	   <div class="col01">
+	
+   
+	<span class="product-desc">1 взрослый собственник. дкп более 5 лет. альтернатива подобрана. уютная, светлая квартира в кирпичном доме, сделан ремонт.											
+	</span></div>
+   
+		  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">397990</span>
+	<span class="product-price-currency">RUB</span></div>
+	</div>
+	
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Маши Порываевой</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">2-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">65 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">7 этаж</span></div>
+	<div class="col02"><img src="/img/q7.jpg" class="product-img" alt="2-я квартира"></div>  
+</Div></div>
+	 <div class="product">
+		<div class="product-1">     
+			<div class="col01">
+	  
+	<span class="product-desc">Уютная стильная квартира с качественным ремонтом в современном, монолитном доме, большая гардеробная.											
+	</span></div>
+   
+ 
+	  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">536990</span>
+	<span class="product-price-currency">RUB</span></div></div>
+	
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Воздвиженка</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">2-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">45 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">4 этаж</span></div>
+	<div class="col02"><img src="/img/q9.jpg" class="product-img" alt="2-комнатная">
+</Div></div></div>
+<div class="product">
+   <div class="product-1">     
+	   <div class="col01">
+	
+   
+	<span class="product-desc">Продается  отличная полностью меблированная квартира !!! окна выходят на парк. 1 взрослый собственник, в собственности более 19 лет!											
+	</span></div>
+	  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">358890</span>
+	<span class="product-price-currency">RUB</span></div></div>
+	
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Подбельского</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">3-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">75 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">15 этаж</span></div>
+	<div class="col02"><img src="/img/q18.jpg" class="product-img" alt="3-х комнатная">
+</Div></div></div>
+<div class="product">
+   <div class="product-1">     
+	   <div class="col01">
+	 
+	<span class="product-desc">Сдача дома - июнь 2020 года!!! переуступка!!!!!! студия с отделкой!!!! отделка хорошего качества, коммуникации все будут подготовлены (кухня,санузел),...											
+	</span></div>
+   
+	
+   
+	  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">567790</span></div>
+	<span class="product-price-currency">RUB</span></div>
+	
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Покрышкина</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">2-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">80 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">монолитный</span></div>
+		<div class="col09">
+	<span class="product-level">20 этаж</span></div>
+
+	<div class="col02"><img src="/img/q10.jpg" class="product-img" alt="2-я квартира"></div>
+</div>
+  </div>
+	 <div class="product">
+		<div class="product-1">     
+			<div class="col01">
+	   	<span class="product-desc">Продается 1-комнатная квартира с отличным ремонтом. встроенная кухня, холодильник, микроволновка остаются. в комнате большой кожаный диван, шкаф-купе....</span></div>
+   	  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">736990</span>
+	<span class="product-price-currency">RUB</span></div>
+	</div>
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Анохина</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">1-комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">40 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">3 этаж</span></div>
+	<div class="col02"><img src="/img/q11.jpg" class="product-img" alt="1-я комнатная"></div>	
+</div></div>
+<div class="product">
+   <div class="product-1">     
+	   <div class="col01">
+	
+   
+	<span class="product-desc">Развитая инфраструктура. прекрасное транспортное сообщение. в шаговой доступности большая зеленая зона и парк лианозово. рядом с домом школа - гимнази...											
+	</span></div>
+   
+	   
+	  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">396990</span>
+	<span class="product-price-currency">RUB</span></div>
+	  </div>
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Марии Ульяновой</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">2-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">52 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">11 этаж</span></div>
+	<div class="col02"><img src="/img/q12.jpg" class="product-img" alt="2-я квартира"></div>
+	</div></div>
+<div class="product">
+   <div class="product-1">     
+	   <div class="col01">
+	  
+	<span class="product-desc">Продается светлая и уютная квартира, просторная с качественным ремонтом. в квартире остается кухонный гарнитур со всей встроенной техникой. лоджия из ...											
+	</span></div>
+         
+	  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">685666</span>
+	<span class="product-price-currency">RUB</span></div>
+	  </div>
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Дмитрия Ульянова</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">2-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">47,6 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">7 этаж</span></div>
+	<div class="col02"><img src="/img/q13.jpg" class="product-img" alt="2-я квартира"></div>
+</div></div>
+<div class="product">
+   <div class="product-1">     
+	   <div class="col01">
+   	<span class="product-desc">3 минуты пешком от метро Университет! комнаты изолированные. продается прекрасная, просторная  квартира в  кирпичном добротном  доме. один взрослый...</span></div>
+         	  </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">366540</span>
+	<span class="product-price-currency">RUB</span></div>
+	</div>
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Сокол</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">2-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">46 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">10 этаж</span></div>
+	<div class="col02"><img src="/img/q14.jpg" class="product-img" alt="2-х комнатная квартира"></div>
+</div></div>
+<div class="product">
+   <div class="product-1">     
+	   <div class="col01">
+   <span class="product-desc">Развитая инфраструктура. прекрасное транспортное сообщение</span></div>
+   </div>
+          <div class="product-2">
+       <div class="col03">
+	<div class="offer">
+	<span class="product-price">596990</span>
+	<span class="product-price-currency">RUB</span></div>
+	  </div>	
+	<div class="col04">
+	<span class="product-address"><a href="#">ул.Правды</a></span></div>
+		<div class="col05">
+	<span class="product-map"><a href="#">Показать на карте</a></span></div>
+	<div class="col06">
+	<span class="product-rooms">2-х комнатная</span></div>
+	<div class="col07">
+			<span class="product-square">45 кв.м.</span></div>
+	<div class="col08">
+	<span class="product-type-house">Кирпичный</span></div>
+		<div class="col09">
+	<span class="product-level">2 этаж</span></div>
+	<div class="col02"><img src="/img/q1.jpg" class="product-img" alt="2-х комнатная квартира"></div>	
+</div>
+</div>
+</div>  
+  </div>	
+
   <footer>
   <p>2020 Права защищены 
     Email: <a href="mailto:my@store.book">my@store.book</a>
